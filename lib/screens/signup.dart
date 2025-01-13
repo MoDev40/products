@@ -78,6 +78,7 @@ class _SignupState extends State<Signup> {
                 height: 15,
               ),
               TextField(
+                obscureText: true,
                 decoration: const InputDecoration(
                   labelText: "Password",
                   prefixIcon: Icon(Icons.key),

@@ -67,6 +67,7 @@ class _LoginState extends State<Login> {
                 height: 20,
               ),
               TextField(
+                obscureText: true,
                 decoration: const InputDecoration(
                     labelText: "Password",
                     prefixIcon: Icon(Icons.key),
